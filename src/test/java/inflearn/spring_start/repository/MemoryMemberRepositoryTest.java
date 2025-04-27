@@ -1,4 +1,4 @@
-package repository;
+package inflearn.spring_start.repository;
 
 import inflearn.spring_start.domain.Member;
 import inflearn.spring_start.repository.MemoryMemberRepository;
