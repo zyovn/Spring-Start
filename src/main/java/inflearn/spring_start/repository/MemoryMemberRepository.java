@@ -1,11 +1,9 @@
 package inflearn.spring_start.repository;
 
 import inflearn.spring_start.domain.Member;
-import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
-@Repository
 public class MemoryMemberRepository implements MemberRepository {
 
     private static Map<Long, Member> store = new HashMap<>();
