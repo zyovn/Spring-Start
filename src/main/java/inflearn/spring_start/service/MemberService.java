@@ -16,7 +16,7 @@ public class MemberService {
         this.memberRepository = memberRepository;
     }
 
-    /*
+    /**
     회원가입
      */
     public Long join(Member member) {
@@ -32,7 +32,7 @@ public class MemberService {
                 });
     }
 
-    /*
+    /**
     전체 회원 조회
      */
     public List<Member> findMembers() {
